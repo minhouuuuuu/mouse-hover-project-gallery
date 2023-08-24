@@ -4,8 +4,7 @@ import styles from './style.module.css';
 
 export default function Index({index, title, url, setModal}) {
     const handleDivClick = () => {
-        console.log('url:', url);
-        window.location.href = url;
+        window.open(url, '_blank');
       };
 
     return (
