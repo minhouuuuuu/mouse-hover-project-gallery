@@ -15,7 +15,7 @@ const projects = [
     title: "Office Studio",
     src: "officestudio.png",
     color: "#8C8C8C",
-    url: "https:/google.com"
+    url: "https://google.com"
   },
   {
     title: "Locomotive",
