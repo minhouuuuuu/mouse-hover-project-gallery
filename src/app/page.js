@@ -14,7 +14,8 @@ const projects = [
   {
     title: "Office Studio",
     src: "officestudio.png",
-    color: "#8C8C8C"
+    color: "#8C8C8C",
+    url: "https:/google.com"
   },
   {
     title: "Locomotive",
@@ -37,7 +38,7 @@ export default function Home() {
     <div className={styles.body}>
       {
         projects.map( (project, index) => {
-          return <Project index={index} title={project.title} setModal={setModal} key={index}/>
+          return <Project index={index} title={project.title} setModal={setModal} url={project.url} key={index}/>
         })
       }
     </div>
